@@ -15,6 +15,7 @@
 		D80A5F54204A198A00B11CE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80A5F52204A198A00B11CE8 /* Main.storyboard */; };
 		D80A5F56204A198A00B11CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80A5F55204A198A00B11CE8 /* Assets.xcassets */; };
 		D80A5F59204A198A00B11CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80A5F57204A198A00B11CE8 /* LaunchScreen.storyboard */; };
+		D80A5F61204A1D6000B11CE8 /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80A5F60204A1D6000B11CE8 /* MSButtonNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D80A5F55204A198A00B11CE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D80A5F58204A198A00B11CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D80A5F5A204A198A00B11CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D80A5F60204A1D6000B11CE8 /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				D80A5F4C204A198A00B11CE8 /* Actions.sks */,
 				D80A5F4E204A198A00B11CE8 /* GameScene.swift */,
 				D80A5F50204A198A00B11CE8 /* GameViewController.swift */,
+				D80A5F60204A1D6000B11CE8 /* MSButtonNode.swift */,
 				D80A5F52204A198A00B11CE8 /* Main.storyboard */,
 				D80A5F55204A198A00B11CE8 /* Assets.xcassets */,
 				D80A5F57204A198A00B11CE8 /* LaunchScreen.storyboard */,
@@ -150,6 +153,7 @@
 				D80A5F4F204A198A00B11CE8 /* GameScene.swift in Sources */,
 				D80A5F51204A198A00B11CE8 /* GameViewController.swift in Sources */,
 				D80A5F49204A198A00B11CE8 /* AppDelegate.swift in Sources */,
+				D80A5F61204A1D6000B11CE8 /* MSButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
