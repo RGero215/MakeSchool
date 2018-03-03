@@ -16,6 +16,8 @@
 		D80A5F56204A198A00B11CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80A5F55204A198A00B11CE8 /* Assets.xcassets */; };
 		D80A5F59204A198A00B11CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80A5F57204A198A00B11CE8 /* LaunchScreen.storyboard */; };
 		D80A5F61204A1D6000B11CE8 /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80A5F60204A1D6000B11CE8 /* MSButtonNode.swift */; };
+		D8CAB979204A3E8E00900BEE /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CAB978204A3E8E00900BEE /* Grid.swift */; };
+		D8CAB97B204A3F3E00900BEE /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CAB97A204A3F3E00900BEE /* Creature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		D80A5F58204A198A00B11CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D80A5F5A204A198A00B11CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D80A5F60204A1D6000B11CE8 /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
+		D8CAB978204A3E8E00900BEE /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		D8CAB97A204A3F3E00900BEE /* Creature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 			children = (
 				D80A5F48204A198A00B11CE8 /* AppDelegate.swift */,
 				D80A5F4A204A198A00B11CE8 /* GameScene.sks */,
+				D8CAB978204A3E8E00900BEE /* Grid.swift */,
+				D8CAB97A204A3F3E00900BEE /* Creature.swift */,
 				D80A5F4C204A198A00B11CE8 /* Actions.sks */,
 				D80A5F4E204A198A00B11CE8 /* GameScene.swift */,
 				D80A5F50204A198A00B11CE8 /* GameViewController.swift */,
@@ -152,7 +158,9 @@
 			files = (
 				D80A5F4F204A198A00B11CE8 /* GameScene.swift in Sources */,
 				D80A5F51204A198A00B11CE8 /* GameViewController.swift in Sources */,
+				D8CAB97B204A3F3E00900BEE /* Creature.swift in Sources */,
 				D80A5F49204A198A00B11CE8 /* AppDelegate.swift in Sources */,
+				D8CAB979204A3E8E00900BEE /* Grid.swift in Sources */,
 				D80A5F61204A1D6000B11CE8 /* MSButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
