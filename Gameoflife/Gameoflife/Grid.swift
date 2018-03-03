@@ -168,4 +168,17 @@ class Grid: SKSpriteNode {
             }
         }
     }
+    
+    func evolve() {
+        /* Updated the grid to the next state in the game of life */
+        
+        /* Update all creature neighbor counts */
+        countNeighbors()
+        
+        /* Calculate all creatures alive or dead */
+        updateCreatures()
+        
+        /* Increment generation counter */
+        generation += 1
+    }
 }
